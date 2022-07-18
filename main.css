@@ -1,0 +1,72 @@
+
+/* responsive + creative~ */
+/* HW:make buttons diff colors*/
+
+div {
+    background-color: mediumaquamarine;
+    font-family: "Monaco"; 
+    display: flex;
+    justify-content: space-between;
+    align-items: auto;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+body{
+    background-color: lightgrey;
+}
+
+input{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 10px;
+    width: auto;
+}
+
+h1{
+   color: white;
+   margin-left: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+}
+
+.hint{
+   margin: auto;
+   padding-bottom: 5px;
+}
+
+button{
+    margin: auto;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+
+p, h2{
+    margin-left: 25px;
+}
+
+
+
+@media screen and (min-width: 2000px) {
+    
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
